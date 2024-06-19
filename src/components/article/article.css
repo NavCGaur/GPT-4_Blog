@@ -1,4 +1,4 @@
-.gpt3__blog-container_article {
+.gpt4__blog-container_article {
     width: 100%;
     height: 100%;
 
@@ -7,18 +7,18 @@
     background: var(--color-footer);
 }
 
-.gpt3__blog-container_article-image {
+.gpt4__blog-container_article-image {
     width: 100%;
     height: 100%;
     background: var(--color-bg);
 }
 
-.gpt3__blog-container_article-image img {
+.gpt4__blog-container_article-image img {
     width: 100%;
     height: 100%;
 }
 
-.gpt3__blog-container_article-content {
+.gpt4__blog-container_article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,7 +28,7 @@
 }
 
 
-.gpt3__blog-container_article-content p {
+.gpt4__blog-container_article-content p {
     font-family: var(--font-family);
     font-size: 11.65px;
     font-weight: 700;
@@ -37,7 +37,7 @@
     color: #fff;
 }
 
-.gpt3__blog-container_article-content h3 {
+.gpt4__blog-container_article-content h3 {
     font-family: var(--font-family);
     font-size: 25.11px;
     font-weight: 800;
@@ -49,71 +49,13 @@
 }
 
 
-.gpt3__blog-container_article-content p:last-child {
+.gpt4__blog-container_article-content p:last-child {
     cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__blog-container_article-content h3 {
+    .gpt4__blog-container_article-content h3 {
         font-size: 18px;
         line-height: 25p;
     }
 }
-
-
-
-/*.gpt3__blog-content__groupB .gpt3__article{
-    width: 330px;
-
-}
-
-
-.gpt3__article-content{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: var(--font-family);
-    font-size: 19.32px;
-    font-weight: 800;
-    line-height: 30.29px;
-    text-align: left;
-    margin-bottom: 50px;
-    width: 327px;
-
-}
-
-.gpt3__article-date{
-    font-family: var(--font-family);
-    font-size: 11.65px;
-    font-weight: 700;
-    line-height: 34.95px;
-    text-align: left;
-    padding-left: 20px;
-
-}
-
-.gpt3__article-title{
-    font-family: var(--font-family);
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 30.29px;
-    text-align: left;
-    padding-left: 20px;
-
-
-}
-
-.gpt3__article-link{
-       
-    font-family: var(--font-family);
-    font-size: 11.65px;
-    font-weight: 700;
-    line-height: 34.95px;
-    text-align: left;
-    padding-left: 20px;
-
-}
-
-
-*/
