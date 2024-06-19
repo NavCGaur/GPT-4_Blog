@@ -6,25 +6,22 @@
     flex-direction: column;
     background: var(--color-footer);
 
-    border: 1px solid white;
 
 }
 
 .gpt4__blog-container_article-image {
     width: 100%;
-    height: 100%;
+    height: 30%;
     background: var(--color-bg);
 
-    border: 1px solid blue;
 
 }
 
 .gpt4__blog-container_article-image img {
     display: block;
     width: 100%;
-    height: 50%px;
+    height: 100%px;
 
-    border: 1px solid red;
 
 }
 
@@ -34,11 +31,13 @@
     justify-content: space-between;
 
     padding: 1rem 1.5rem;
-    height: 100%;
+    height: 70%;
 
-    border: 1px solid green;
 
 }
+
+.gpt4__blog-container_groupA .gpt4__blog-container_article-content p{
+padding-top: 150px;}
 
 
 .gpt4__blog-container_article-content p {
@@ -49,7 +48,6 @@
 
     color: #fff;
 
-    border: 1px solid yellow;
 
 }
 
@@ -63,7 +61,6 @@
     margin-bottom: 5rem;
     cursor: pointer;
 
-    border: 1px solid purple;
 
 }
 
