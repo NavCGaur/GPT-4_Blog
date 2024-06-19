@@ -1,5 +1,10 @@
+//React import
 import React from 'react';
+
+//Style import
 import './possibility.css';
+
+//Image import
 import possibilityimage from '../../assets/possibility.png'
 
 
